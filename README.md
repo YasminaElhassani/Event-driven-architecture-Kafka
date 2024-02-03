@@ -25,6 +25,7 @@ start bin\windows\kafka-server.start.bat config/server.properties
 ### Run the producer and consumer: 
 
 start bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic R1
+
 start bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic R1
 
 ![start zookeeper_kafka_consumer_producer](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/482cd887-ce2d-4c73-abde-57af2756a384)
