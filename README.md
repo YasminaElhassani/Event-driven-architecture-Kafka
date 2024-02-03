@@ -1,7 +1,9 @@
 # Event-Driven Architecture Project Readme
 ## Introduction
+
 Welcome to our event-driven architecture project! This project is designed to demonstrate the power and flexibility of event-driven systems using Kafka and Spring Cloud Streams. Before diving into the details, let's understand the basic setup and requirements.
 Event Driven Architerchture:
+
 ![software architecture_event_driven](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/d7c63ebf-38af-4fc0-aa59-0273daa87d8d)
 
 ## Setup Instructions
