@@ -13,7 +13,7 @@ import java.util.Random;
 @RestController
 public class PageEventRestController {
     /*
-    1- Publier les évenements, kafka<--RestController, en utilisant Spring cloud streams function
+    1- Publier des événements vers Apache Kafka, kafka<--RestController, en utilisant Spring cloud stream function
     */
     @Autowired
     private StreamBridge streamBridge;
