@@ -45,9 +45,9 @@ We have implemented a controller responsible for publishing messages using Sprin
 
 ## Consumer :
 
-Consume messages:
+The messages are consumed successfully:
 
-***********************************************************************************************************
+![2-consumer](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/584fd1cf-d4a7-48d3-9ac6-9aa8abfde85d)
 
 ## 3- Supplier/Producer Poller : 
  
@@ -59,6 +59,9 @@ By default, Spring Cloud Stream configures the supplier to push a message every 
 
 
 ![supplier](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/42edfa0f-0a29-4c1a-b0ae-4b17ebd81b74)
+
+## 4- Producer & Consumer
+
 
 
 
