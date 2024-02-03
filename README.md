@@ -43,4 +43,21 @@ We have implemented a controller responsible for publishing messages using Sprin
 
 ![publier des evenements](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/e77e15a0-540f-4ea6-9085-4bbf8231c3d5)
 
+## Consumer :
+
+Consume messages:
+
+***********************************************************************************************************
+
+## 3- Supplier/Producer Poller : 
+ 
+The producer poller is a crucial component designed to poll for data and publish it to Kafka topics. 
+
+By default, Spring Cloud Stream configures the supplier to push a message every second. You can configure the timing using the following property: 
+
+#### spring.cloud.stream.poller.fixed-delay=100.
+
+![supplier](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/42edfa0f-0a29-4c1a-b0ae-4b17ebd81b74)
+
+
 
