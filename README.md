@@ -37,7 +37,7 @@ This project includes a test suite for validating the communication between a pr
 ![success test](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/f223817f-2880-42f3-b1a3-9a70aacced89)
 
 
-## 2. Controller & Consumer
+## 2. ControllerEventProducer & Consumer
    
 We have implemented a controller responsible for publishing messages using Spring Cloud Stream Function. On the other end, a consumer is designed to consume these messages efficiently.
 
