@@ -9,7 +9,6 @@ Event Driven Architerchture:
 Kafka Architecture:
 
 ![architechture kafka](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/a046d00e-8bb3-4060-a023-fa467a80ed8b)
-280152/d7c63ebf-38af-4fc0-aa59-0273daa87d8d)
 
 ## Setup Instructions
 To get started, follow these steps:
