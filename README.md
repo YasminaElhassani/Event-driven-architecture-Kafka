@@ -57,6 +57,7 @@ By default, Spring Cloud Stream configures the supplier to push a message every 
 
 #### spring.cloud.stream.poller.fixed-delay=100.
 
+
 ![supplier](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/42edfa0f-0a29-4c1a-b0ae-4b17ebd81b74)
 
 
