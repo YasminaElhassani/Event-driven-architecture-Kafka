@@ -1,6 +1,10 @@
 package com.example.kafkaspringcloudstreams.service;
 
 import com.example.kafkaspringcloudstreams.entities.PageEvent;
+import org.apache.kafka.common.serialization.Serdes;
+import org.apache.kafka.streams.KeyValue;
+import org.apache.kafka.streams.kstream.Grouped;
+import org.apache.kafka.streams.kstream.KStream;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
@@ -44,6 +48,17 @@ public class PageEventService {
             input.setName("L:"+input.getName().length());
             input.setUser("User function");
             return input;
+        };
+    }
+
+    @Bean
+    public Function<KStream<String,PageEvent>,KStream<String,Long>> kStreamFunction(){
+        return (input)->{
+            return input
+                    .filter((k,v)->v.getDuration()>100)
+                    .map((k,v)->new KeyValue<>(v.getName(),0L))
+                    .groupBy((k,v)->k, Grouped.with(Serdes.String(),Serdes.Long()))
+                    .count().toStream();
         };
     }
 }
