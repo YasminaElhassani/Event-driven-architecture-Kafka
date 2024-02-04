@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.Date;
 import java.util.Random;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 @Service
@@ -36,7 +37,16 @@ public class PageEventService {
                 new Random().nextInt(900)
         );
         }
+
+    @Bean
+    public Function<PageEvent,PageEvent> pageEventFunction(){
+        return (input)->{
+            input.setName("L:"+input.getName().length());
+            input.setUser("User function");
+            return input;
+        };
     }
+}
 
 
 
