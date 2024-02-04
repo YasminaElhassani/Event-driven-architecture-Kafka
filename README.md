@@ -43,13 +43,13 @@ We have implemented a controller responsible for publishing messages using Sprin
 
 ![publier des evenements](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/e77e15a0-540f-4ea6-9085-4bbf8231c3d5)
 
-## Consumer :
+## Consumer
 
 The messages are consumed successfully:
 
 ![2-consumer](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/584fd1cf-d4a7-48d3-9ac6-9aa8abfde85d)
 
-## 3- Supplier/Producer Poller : 
+## 3- Supplier/Producer Poller
  
 The producer poller is a crucial component designed to poll for data and publish it to Kafka topics. 
 
@@ -61,6 +61,17 @@ By default, Spring Cloud Stream configures the supplier to push a message every 
 ![supplier](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/42edfa0f-0a29-4c1a-b0ae-4b17ebd81b74)
 
 ## 4- Producer & Consumer
+
+### Producer
+The producer is responsible for publishing messages to the specified destination (Kafka topic). It generates and sends data to the messaging system for consumption by a consumer.
+
+### Consumer
+The consumer is tasked with receiving and processing messages from the messaging system. It subscribes to the specified destination (Kafka topic).
+
+![producer_consumer](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/06ec2b86-33ab-4ba3-9fea-43854e2d6355)
+
+## 5-Kafka Streams
+
 
 
 
