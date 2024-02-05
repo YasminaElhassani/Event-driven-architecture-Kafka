@@ -72,6 +72,9 @@ The consumer is tasked with receiving and processing messages from the messaging
 
 ## 5-Kafka Streams
 
+With kafka streams
+
+
 
 
 
