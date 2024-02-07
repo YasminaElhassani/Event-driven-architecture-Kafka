@@ -74,6 +74,12 @@ The consumer is tasked with receiving and processing messages from the messaging
 
 With kafka streams
 
+![a](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/4307ed57-5ed4-4e96-8918-13006e526e04)
+
+
+![b](https://github.com/YasminaElhassani/Event-driven-architecture-Kafka/assets/103280152/9a61a00e-f2cc-4ca6-a9d8-bb1ec6a986c5)
+
+
 
 
 
